@@ -1,19 +1,22 @@
 node_modules
 .env
 
-# Hardhat files
-/cache
-/artifacts
+# OS / tool files (불필요 디렉토리)
+.DS_Store
+.omc/
+.claude/
+
+# Hardhat files (모든 하위 과제 폴더에 적용)
+cache/
+artifacts/
 
 # TypeChain files
-/typechain
-/typechain-types
+typechain/
+typechain-types/
 
 # solidity-coverage files
-/coverage
-/coverage.json
+coverage/
+coverage.json
 
 # Hardhat Ignition default folder for deployments against a local node
 ignition/deployments/chain-31337
-
-
